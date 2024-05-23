@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import project1 from "@/public/project1.png";
+import project2 from "@/public/project2.png";
+import project3 from "@/public/project3.png";
 
 export const links = [
   {
@@ -62,25 +62,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "3D Shirt Configurator",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a front-end developer on this project for 6 months. Users can customize their costumes in realtime with the 3d model.",
+    tags: ["React", "Three.js", "SCSS", "Zustand", "Framer"],
+    imageUrl: project1,
+    link: "https://3d-shirt-configurator.netlify.app/",
   },
   {
-    title: "rmtDev",
+    title: "Ai Image Generator",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Transform text into stunning images with this React.js-powered AI Image Generator, fueled by OpenAI's DALL·E 3",
+    tags: ["React", "Open AI", "SCSS", "Framer"],
+    imageUrl: project2,
+    link: "https://openai-gallary.netlify.app/",
   },
   {
-    title: "Word Analytics",
+    title: "IPhone Landing Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This project featuring an interactive 3D model of an iPhone with smooth animations powered by Three.js and GSAP",
+    tags: ["React", "Three.js", "GSAP", "Webgi", "Framer"],
+    imageUrl: project3,
+    link: "https://3d-shirt-configurator.netlify.app/",
   },
 ] as const;
 
