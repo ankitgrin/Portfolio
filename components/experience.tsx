@@ -1,15 +1,15 @@
 "use client";
 
+import { useTheme } from "@/context/theme-context";
+import { experiencesData } from "@/lib/data";
+import { useSectionInView } from "@/lib/hooks";
 import React from "react";
-import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { experiencesData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
-import { useTheme } from "@/context/theme-context";
+import SectionHeading from "./section-heading";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -43,6 +43,7 @@ export default function Experience() {
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
+              // visible
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>

@@ -2,9 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import project1 from "@/public/project1.png";
-import project2 from "@/public/project2.png";
-import project3 from "@/public/project3.png";
 
 export const links = [
   {
@@ -66,7 +63,7 @@ export const projectsData = [
     description:
       "I worked as a front-end developer on this project for 6 months. Users can customize their costumes in realtime with the 3d model.",
     tags: ["React", "Three.js", "SCSS", "Zustand", "Framer"],
-    imageUrl: project1,
+    imageUrl: "/project1.png",
     link: "https://3d-shirt-configurator.netlify.app/",
   },
   {
@@ -74,7 +71,7 @@ export const projectsData = [
     description:
       "This project featuring an interactive 3D model of an iPhone with smooth animations powered by Three.js and GSAP",
     tags: ["React", "Three.js", "GSAP", "Webgi", "Framer"],
-    imageUrl: project3,
+    imageUrl: "/project3.png",
     link: "https://3d-iphone-landing-page.netlify.app/",
   },
   {
@@ -82,7 +79,7 @@ export const projectsData = [
     description:
       "Transform text into stunning images with this React.js-powered AI Image Generator, fueled by OpenAI's DALL·E 3",
     tags: ["React", "Open AI", "SCSS", "Framer"],
-    imageUrl: project2,
+    imageUrl: "/project2.png",
     link: "https://openai-gallary.netlify.app/",
   },
 ] as const;
