@@ -70,20 +70,20 @@ export const projectsData = [
     link: "https://3d-shirt-configurator.netlify.app/",
   },
   {
+    title: "IPhone Landing Page",
+    description:
+      "This project featuring an interactive 3D model of an iPhone with smooth animations powered by Three.js and GSAP",
+    tags: ["React", "Three.js", "GSAP", "Webgi", "Framer"],
+    imageUrl: project3,
+    link: "https://3d-iphone-landing-page.netlify.app/",
+  },
+  {
     title: "Ai Image Generator",
     description:
       "Transform text into stunning images with this React.js-powered AI Image Generator, fueled by OpenAI's DALL·E 3",
     tags: ["React", "Open AI", "SCSS", "Framer"],
     imageUrl: project2,
     link: "https://openai-gallary.netlify.app/",
-  },
-  {
-    title: "IPhone Landing Page",
-    description:
-      "This project featuring an interactive 3D model of an iPhone with smooth animations powered by Three.js and GSAP",
-    tags: ["React", "Three.js", "GSAP", "Webgi", "Framer"],
-    imageUrl: project3,
-    link: "https://3d-shirt-configurator.netlify.app/",
   },
 ] as const;
 
@@ -94,17 +94,9 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+  "Three.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
