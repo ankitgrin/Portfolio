@@ -32,27 +32,32 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelor of Computer Applications",
-    location: "JMIT",
-    description:
-      "I dropped out of college after one year. I immediately started learning web development on my own, then after six months got a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    title: "Front-End Developer",
+    location: "SoftRadix Technologies Pvt Ltd",
+    description: `E-commerce Portal Development: Led the front-end development for an e-commerce portal, enabling clients to sell custom apparel.<br />
+      • Travel Website Development: Developed a travel website named “Company for Nice Travel” using Next.js, Google Maps, Redux Toolkit, and Firebase. Implemented a real-time chat feature using the Firebase database.<br />
+      • 3D Shirt Customization Project: Worked on a project that allows users to customize costumes via a 3D model. Utilized React-three-fiber and Zustand for the development of this project.<br />
+      • Client Interaction: Managed client relationships and handled projects independently, ensuring client satisfaction and project success.`,
+    icon: React.createElement(FaReact),
+    date: "May 2022 - May 2024",
   },
   {
     title: "Front-End Developer",
     location: "Snowflakes Software Private Limited",
-    description: "Here i worked as a junior react developer for one year.",
+    description: `• Interactive Dashboard Development: Designed and developed an interactive dashboard for a financial services company, utilizing React.js and D3.js for data visualization. Implemented responsive design principles to ensure usability across various devices. <br />
+    • E-commerce Website Revamp: Led the front-end revamp of an existing e-commerce website, improving the site's performance and user engagement. Integrated payment gateways, enhanced security features, and implemented few more functionalities.<br />
+    • Client-Facing Projects: Frequently interacted with clients to gather requirements, provide updates, and ensure project alignment with
+    client expectations`,
     icon: React.createElement(CgWorkAlt),
     date: "April 2021 - April 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "SoftRadix Technologies Pvt Ltd",
+    title: "Bachelor of Computer Applications",
+    location: "JMIT",
     description:
-      "Here i handled many projects in React and Next.js. I also got an opportunity to work in Three.js project. So from past six months i am exploring on Three.js as well.",
-    icon: React.createElement(FaReact),
-    date: "May 2022 - May 2024",
+      "• After one year of college, I chose to drop out and pursue my passion for web development independently. Through dedicated self-study using Youtube and Udemy courses, I secured a position as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019",
   },
 ] as const;
 
@@ -60,7 +65,7 @@ export const projectsData = [
   {
     title: "3D Shirt Configurator",
     description:
-      "I worked as a front-end developer on this project for 6 months. Users can customize their costumes in realtime with the 3d model.",
+      "This project allows users to customize costumes via a 3D model. Utilized React-three-fiber and Zustand for the development of this project.",
     tags: ["React", "Three.js", "SCSS", "Zustand", "Framer"],
     imageUrl: "/project1.png",
     link: "https://3d-shirt-configurator.netlify.app/",

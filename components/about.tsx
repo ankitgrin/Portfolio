@@ -19,10 +19,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After dropping out from <span className="font-medium">college</span>, I
-        decided to pursue my passion for programming. I learned{" "}
-        <span className="font-medium">front-end development</span> from youtube
-        & udemy courses.{" "}
+        After one year of <span className="font-medium">college</span>, I chose
+        to drop out and pursue my passion for{" "}
+        <span className="font-medium">web development.</span> I learned{" "}
+        <span className="font-medium">front-end development</span> through
+        youtube & udemy courses.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
@@ -33,9 +34,11 @@ export default function About() {
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        chess, watching movies, and chilling out with my friends. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about <span className="font-medium">philosophy</span>.
+        chess, watching movies, and chilling out with my friends. I also have a
+        keen interest in{" "}
+        <span className="font-medium">learning new things</span>. Currently, I'm
+        delving into philosophy--it's like diving into the depths of{" "}
+        <span className="font-medium">life's</span> big questions.
       </p>
     </motion.section>
   );
