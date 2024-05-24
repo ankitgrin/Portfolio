@@ -10,6 +10,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SectionHeading from "./section-heading";
+import parse from "html-react-parser";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -43,11 +44,12 @@ export default function Experience() {
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
+              visible
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
+                {parse(item.description)}
               </p>
             </VerticalTimelineElement>
           </React.Fragment>
