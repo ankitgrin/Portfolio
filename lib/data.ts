@@ -50,7 +50,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "SoftRadix Technologies Pvt Ltd",
     description:
-      "Here I handled many projects in React and Next.js. I also got an opportunity to work in Three.js project. So from past six months i am exploring on Three.js as well.",
+      "Here i handled many projects in React and Next.js. I also got an opportunity to work in Three.js project. So from past six months i am exploring on Three.js as well.",
     icon: React.createElement(FaReact),
     date: "May 2022 - May 2024",
   },
