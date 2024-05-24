@@ -1,6 +1,4 @@
-# Ankit's Portfolio
-
-## About
+## About me
 
 After one year of college, I chose to drop out and pursue my passion for web development. I learned front-end development through youtube & udemy courses. My favorite part of programming is the problem-solving aspect. I love the feeling of finally figuring out a solution to a problem. My core stack is React, Next.js, and Three.js. I am also familiar with TypeScript and Framer motion. I am always looking to learn new technologies.
 
