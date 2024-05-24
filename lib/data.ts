@@ -34,7 +34,7 @@ export const experiencesData = [
   {
     title: "Front-End Developer",
     location: "SoftRadix Technologies Pvt Ltd",
-    description: `E-commerce Portal Development: Led the front-end development for an e-commerce portal, enabling clients to sell custom apparel.<br />
+    description: `• E-commerce Portal Development: Led the front-end development for an e-commerce portal, enabling clients to sell custom apparel.<br />
       • Travel Website Development: Developed a travel website named “Company for Nice Travel” using Next.js, Google Maps, Redux Toolkit, and Firebase. Implemented a real-time chat feature using the Firebase database.<br />
       • 3D Shirt Customization Project: Worked on a project that allows users to customize costumes via a 3D model. Utilized React-three-fiber and Zustand for the development of this project.<br />
       • Client Interaction: Managed client relationships and handled projects independently, ensuring client satisfaction and project success.`,
