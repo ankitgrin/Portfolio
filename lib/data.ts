@@ -34,19 +34,19 @@ export const experiencesData = [
   {
     title: "Front-End Developer",
     location: "SoftRadix Technologies Pvt Ltd",
-    description: `• E-commerce Portal Development: Led the front-end development for an e-commerce portal, enabling clients to sell custom apparel.<br />
-      • Travel Website Development: Developed a travel website named “Company for Nice Travel” using Next.js, Google Maps, Redux Toolkit, and Firebase. Implemented a real-time chat feature using the Firebase database.<br />
-      • 3D Shirt Customization Project: Worked on a project that allows users to customize costumes via a 3D model. Utilized React-three-fiber and Zustand for the development of this project.<br />
-      • Client Interaction: Managed client relationships and handled projects independently, ensuring client satisfaction and project success.`,
+    description: `• <b>E-commerce Portal Development:</b> Led the front-end development for an e-commerce portal, enabling clients to sell custom apparel.<br />
+      • <b>Travel Website Development:</b> Developed a travel website named “Company for Nice Travel” using Next.js, Google Maps, Redux Toolkit, and Firebase. Implemented a real-time chat feature using the Firebase database.<br />
+      • <b>3D Shirt Customization Project:</b> Worked on a project that allows users to customize costumes via a 3D model. Utilized React-three-fiber and Zustand for the development of this project.<br />
+      • <b>Client Interaction:</b> Managed client relationships and handled projects independently, ensuring client satisfaction and project success.`,
     icon: React.createElement(FaReact),
     date: "May 2022 - May 2024",
   },
   {
     title: "Front-End Developer",
     location: "Snowflakes Software Private Limited",
-    description: `• Interactive Dashboard Development: Designed and developed an interactive dashboard for a financial services company, utilizing React.js and D3.js for data visualization. Implemented responsive design principles to ensure usability across various devices. <br />
-    • E-commerce Website Revamp: Led the front-end revamp of an existing e-commerce website, improving the site's performance and user engagement. Integrated payment gateways, enhanced security features, and implemented few more functionalities.<br />
-    • Client-Facing Projects: Frequently interacted with clients to gather requirements, provide updates, and ensure project alignment with
+    description: `• <b>Interactive Dashboard Development:</b> Designed and developed an interactive dashboard for a financial services company, utilizing React.js and D3.js for data visualization. Implemented responsive design principles to ensure usability across various devices. <br />
+    • <b>E-commerce Website Revamp:</b> Led the front-end revamp of an existing e-commerce website, improving the site's performance and user engagement. Integrated payment gateways, enhanced security features, and implemented few more functionalities.<br />
+    • <b>Client-Facing Projects:</b> Frequently interacted with clients to gather requirements, provide updates, and ensure project alignment with
     client expectations`,
     icon: React.createElement(CgWorkAlt),
     date: "April 2021 - April 2022",
@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "• After one year of college, I chose to drop out and pursue my passion for web development independently. Through dedicated self-study using Youtube and Udemy courses, I secured a position as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "June 2019 - June 2020",
   },
 ] as const;
 
