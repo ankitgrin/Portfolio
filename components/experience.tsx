@@ -13,7 +13,7 @@ import SectionHeading from "./section-heading";
 import parse from "html-react-parser";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
+  const { ref } = useSectionInView("Experience", 0.3);
   const { theme } = useTheme();
 
   return (
