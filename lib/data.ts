@@ -45,9 +45,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Snowflakes Software Private Limited",
     description: `• <b>Interactive Dashboard Development:</b> Designed and developed an interactive dashboard for a financial services company, utilizing React.js and D3.js for data visualization. Implemented responsive design principles to ensure usability across various devices. <br />
-    • <b>E-commerce Website Revamp:</b> Led the front-end revamp of an existing e-commerce website, improving the site's performance and user engagement. Integrated payment gateways, enhanced security features, and implemented few more functionalities.<br />
-    • <b>Client-Facing Projects:</b> Frequently interacted with clients to gather requirements, provide updates, and ensure project alignment with
-    client expectations`,
+    • <b>E-commerce Website Revamp:</b> Led the front-end revamp of an existing e-commerce website, improving the site's performance and user engagement. Integrated payment gateways, enhanced security features, and implemented few more functionalities.`,
     icon: React.createElement(CgWorkAlt),
     date: "April 2021 - April 2022",
   },
