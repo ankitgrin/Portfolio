@@ -19,17 +19,13 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After one year of <span className="font-medium">college</span>, I chose
-        to drop out and pursue my passion for{" "}
-        <span className="font-medium">web development.</span> I learned{" "}
-        <span className="font-medium">front-end development</span> through
-        youtube & udemy courses.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React, Next.js, and Three.js</span>. I
-        am also familiar with TypeScript and Framer motion. I am always looking
-        to learn new technologies.
+        <span className="font-medium">My favorite part of programming</span> is
+        the problem-solving aspect. I <span className="underline">love</span>{" "}
+        the feeling of finally figuring out a solution to a problem. My core
+        stack is{" "}
+        <span className="font-medium">React, Next.js, and Three.js</span>. I am
+        also familiar with TypeScript and Framer motion. I am always looking to
+        learn new technologies.
       </p>
 
       <p>
